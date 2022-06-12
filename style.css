@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* top-footer */
+
+.top-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(55, 169, 189);
+    padding: 0.5rem;
+}
+.top-footer-left-wrapper, .top-footer-right-wrapper{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-footer-right-wrapper-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+/* Header */
+
+.header{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+.nav>ul{
+    display: flex;
+    gap:2rem;
+}
+.nav>ul>li>a{
+    color: black;
+}
+.Donate-button{
+    background-color: rgb(49, 114, 211);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+*{
+    text-align: center;
+}
+.maindiv{
+    display:flex;
+    padding:10px;
+    justify-content: space-around;
+
+}
+.division{
+    background-color:#edece8;
+    width: 450px;
+    height:400px;
+    margin:30px;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+button{
+    background-color: rgb(26, 27, 94);
+    padding:10px 30px ;
+    color: aliceblue;
+    border: none;
+    margin-top: 20px;
+    border-radius:10px;
+    cursor: pointer;
+
+}
+
+.division:hover{
+    background-color: rgb(180, 180, 206);
+    transform: scale(1.1);
+    
+}
+.Line{
+    width:200px;
+    height:2px;
+    background-color: black;
+    margin:auto;
+
+}
+@media screen and (max-width:700px){
+    .maindiv{
+        flex-direction: column;
+    }
+}
+.Footer{
+    display: flex;
+    background-color: rgba(5, 29, 52, 0.97);
+    color: aliceblue;
+}
+.footer01{
+    width:500px;
+    padding:100px;
+}
+.footer02{
+    width:200px;
+    padding:100px;
+}
+.footer03{
+    width:200px;
+    padding:100px;
+}
+.footer04{
+    width:500px;
+    padding:100px;
+}
+
+.down-footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(89, 81, 133);
+    padding: 0.5rem;
+    color: white;
+}
+.down-footer-left-wrapper, .down-footer-right-wrapper{
+    display: flex;
+    align-items: center;
+    gap:0.5rem;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down-footer-right-wrapper-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
